@@ -1,5 +1,5 @@
 """
-Write me a program that takes a number and makes it negative if it is not negative yet.
+Write a program that takes a number and makes it negative if it is not negative yet.
 
 Напишите программу, которая принимает число и делает его отрицательным, если оно ещё не является отрицательным.
 

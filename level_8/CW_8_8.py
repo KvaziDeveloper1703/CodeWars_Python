@@ -1,7 +1,7 @@
 """
-Write a program that returns the sum of the squares of all numbers in an array.
+Write a program that takes an array of numbers as input and calculates the sum of the squares of all the numbers in the array.
 
-Напишите программу, которая удаляет первый и последний символ строки.
+Напишите программу, которая принимает массив чисел и вычисляет сумму квадратов всех чисел в массиве.
 
 https://www.codewars.com/kata/515e271a311df0350d00000f
 """

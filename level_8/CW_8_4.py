@@ -1,7 +1,7 @@
 """
-Write a program that reverses a string.
+Write a program that takes a string as input and returns the reversed version of the string.
 
-Напишите программу, которая переворачивает строку.
+Напишите программу, которая принимает строку на вход и возвращает её перевёрнутую версию.
 
 https://www.codewars.com/kata/5168bb5dfe9a00b126000018
 """

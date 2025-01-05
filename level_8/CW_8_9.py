@@ -1,7 +1,7 @@
 """
-Write a program that receives an integer and a string as input and returns the string repeated as many times as the integer says.
+Write a program that takes an integer and a string as input, then returns the string repeated the number of times specified by the integer.
 
-Напишите программу, которая принимает целое число и строку в качестве входных данных и возвращает строку, повторённую столько раз, сколько указано в целом числе.
+Напишите программу, которая принимает целое число и строку, а затем возвращает эту строку, повторённую количество раз, указанное в целом числе.
 
 https://www.codewars.com/kata/57a0e5c372292dd76d000d7e
 """

@@ -1,7 +1,7 @@
 """
-Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
+Write a program that takes a positive integer greater than 0 as input and calculates the sum of all numbers from 1 to the given number.
 
-Напишите программу, которая вычисляет сумму всех чисел от 1 до num. Число всегда будет положительным целым числом, большим 0.
+Напишите программу, которая принимает положительное целое число, большее 0, и вычисляет сумму всех чисел от 1 до указанного числа.
 
 https://www.codewars.com/kata/55d24f55d7dd296eb9000030
 """

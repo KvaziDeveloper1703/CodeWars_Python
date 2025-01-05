@@ -1,7 +1,7 @@
 """
-You get an array of numbers, return the sum of all of the positive ones.
+Given an array of numbers, write a function to calculate the sum of all positive numbers in the array. If there are no positive numbers, return 0.
 
-Вам дан массив чисел, верните сумму всех положительных чисел.
+Дан массив чисел. Напишите функцию, которая вычисляет сумму всех положительных чисел в массиве. Если положительных чисел нет, вернуть 0.
 
 https://www.codewars.com/kata/5715eaedb436cf5606000381
 """
