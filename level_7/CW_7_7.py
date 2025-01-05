@@ -1,11 +1,11 @@
 """
-Write a program that return the middle character of the given word. 
-If the word's length is odd, return the middle character. 
-If the word's length is even, return the middle 2 characters.
+Write a program that takes a word as input and returns its middle character(s).
++ If the word has an odd length, return the single middle character.
++ If the word has an even length, return the two middle characters.
 
-Напишите программу, которая возвращает средний символ заданного слова.
-Если длина слова нечётная, вернуть средний символ.
-Если длина слова чётная, вернуть 2 средних символа.
+Напишите программу, которая принимает слово и возвращает его средний символ или символы.
++ Если длина слова нечётная, вернуть один средний символ.
++ Если длина слова чётная, вернуть два средних символа.
 
 https://www.codewars.com/kata/56747fd5cb988479af000028
 """

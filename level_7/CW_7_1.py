@@ -1,11 +1,7 @@
 """
-Write a program that counts vowels in the given sentence.
-We will consider a, e, i, o, u, y as vowels.
-The input string will only consist of lower case letters and/or spaces.
+Write a program that counts vowels in the given sentence. We will consider a, e, i, o, u, y as vowels.The input string will only consist of lower case letters and/or spaces.
 
-Напишите программу, которая подсчитывает количество гласных в заданном предложении.
-Мы будем считать гласными буквы a, e, i, o, u, y.
-Входная строка будет состоять только из строчных букв и/или пробелов.
+Напишите программу, которая подсчитывает количество гласных в заданном предложении.Мы будем считать гласными буквы a, e, i, o, u, y. Входная строка будет состоять только из строчных букв и/или пробелов.
 
 https://www.codewars.com/kata/54ff3102c1bad923760001f3
 """

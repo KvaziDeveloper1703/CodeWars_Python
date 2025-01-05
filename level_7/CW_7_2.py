@@ -1,11 +1,7 @@
 """
-Trolls are attacking your comment section!
-A common way to deal with this situation is to remove all of the vowels from the troll's comments, neutralizing the threat.
-Write a program that takes a string and return a new string with all vowels removed.
+Write a program that takes a string as input and returns a new string with all vowels removed.
 For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
 
-Тролли атакуют ваш раздел комментариев!
-Обычный способ справиться с этой ситуацией — удалить все гласные из комментариев троллей, нейтрализуя угрозу.
 Напишите программу, которая принимает строку и возвращает новую строку с удалёнными гласными.
 Например, строка "This website is for losers LOL!" станет "Ths wbst s fr lsrs LL!".
 

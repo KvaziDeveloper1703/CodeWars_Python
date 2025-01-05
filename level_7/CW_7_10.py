@@ -1,9 +1,9 @@
 """
-An isogram is a word that has no repeating letters, consecutive or non-consecutive. 
+An isogram is a word that has no repeating letters. 
 Write a program that determines whether a string that contains only letters is an isogram. 
 Assume the empty string is an isogram and ignore the letter case.
 
-Изограмма — это слово, в котором нет повторяющихся букв, как подряд, так и не подряд.
+Изограмма — это слово, в котором нет повторяющихся букв.
 Напишите программу, которая определяет, является ли строка, содержащая только буквы, изограммой.
 Предположим, что пустая строка является изограммой, и игнорируйте регистр букв.
 

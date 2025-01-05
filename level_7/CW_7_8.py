@@ -1,9 +1,9 @@
 """
-Write a program that transforms a string by repeating each character based on its position, capitalizing the first repetition, and joining them with hyphens. 
-For example, "abcd" should return "A-Bb-Ccc-Dddd".
+Write a program that takes a string as input and transforms it by repeating each character based on its position in the string. The first repetition should be capitalized, and the results should be joined with hyphens.
+For example, the input "abcd" should return "A-Bb-Ccc-Dddd".
 
-Напишите программу, которая преобразует строку, повторяя каждый символ в соответствии с его позицией, делая первую повторяющуюся букву заглавной, и соединяет результаты с помощью дефисов.
-Например, строка "abcd" должна вернуть "A-Bb-Ccc-Dddd".
+Напишите программу, которая принимает строку и преобразует её, повторяя каждый символ столько раз, сколько соответствует его позиции в строке. Первая повторяющаяся буква должна быть заглавной, а результаты соединяются с помощью дефисов.
+Например, для строки "abcd" программа должна вернуть "A-Bb-Ccc-Dddd".
 
 https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
 """
