@@ -13,15 +13,20 @@ Input: "Hello World" → Output: False (missing many letters)
 """
 
 def is_pangram(given_string):
+
     latin_letters = {
         'A': False, 'B': False, 'C': False, 'D': False, 'E': False, 'F': False, 'G': False, 'H': False, 'I': False, 'J': False, 'K': False , 'L': False, 'M': False,
         'N': False, 'O': False, 'P': False, 'Q': False, 'R': False, 'S': False, 'T': False, 'U': False, 'V': False, 'W': False, 'X': False, 'Y': False, 'Z': False,
     }
+
     for letter in given_string:
         if letter.upper() in latin_letters:
             latin_letters[letter.upper()] = True
+
     string_is_a_pangram = True
+
     for key in latin_letters:
         if latin_letters[key] == False:
             string_is_a_pangram = False
+
     return string_is_a_pangram
