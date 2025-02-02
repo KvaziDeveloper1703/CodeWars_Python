@@ -15,6 +15,7 @@ You can assume that the provided array will not be empty.
 
 Можно считать, что массив не будет пустым.
 """
+
 def find_smallest_int(given_array):
     smallest_number = given_array[0]
     for number in given_array:
