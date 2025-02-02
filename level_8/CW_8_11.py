@@ -15,12 +15,12 @@ You can assume that the provided array will not be empty.
 
 Можно считать, что массив не будет пустым.
 """
-def find_smallest(arr):
-    smallest = arr[0]
-    for num in arr:
-        if num < smallest:
-            smallest = num
-    return smallest
+def find_smallest_int(given_array):
+    smallest_number = given_array[0]
+    for number in given_array:
+        if number < smallest_number:
+            smallest_number = number
+    return smallest_number
 
 print(find_smallest([34, 15, 88, 2]))
 print(find_smallest([34, -345, -1, 100]))
