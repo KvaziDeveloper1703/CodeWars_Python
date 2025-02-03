@@ -21,15 +21,15 @@ n = 86240 → "(2**5)(5)(7**2)(11)"
 """
 
 def prime_factors(n):
-
     factors = {}
-    divisor = 2 
+    divisor = 2
 
     while n % divisor == 0:
         factors[divisor] = factors.get(divisor, 0) + 1
         n //= divisor
 
     divisor = 3
+
     while divisor * divisor <= n:
         while n % divisor == 0:
             factors[divisor] = factors.get(divisor, 0) + 1
@@ -39,10 +39,12 @@ def prime_factors(n):
     if n > 1:
         factors[n] = factors.get(n, 0) + 1
 
-    result = "".join(
-        f"({p}**{e})" if e > 1 else f"({p})"
-        for p, e in sorted(factors.items())
-    )
+    result = ""
+    for prime, exponent in sorted(factors.items()):
+        if exponent > 1:
+            result += f"({prime}**{exponent})"
+        else:
+            result += f"({prime})"
 
     return result
 
