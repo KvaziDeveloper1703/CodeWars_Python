@@ -1,22 +1,10 @@
 """
-Write a function to convert a name into initials.
-Input: two words with a single space between them.
-Output: two capital letters separated by a dot.
+Write a function that converts a two-word name into initials, outputting two capital letters separated by a dot.
 
-Examples:
-"Sam Harris" → "S.H"
-"patrick feeney" → "P.F"
-
-Напишите функцию, которая преобразует имя в инициалы.
-Входные данные: два слова, разделённые одним пробелом.
-Выходные данные: две заглавные буквы, разделённые точкой.
-
-Примеры:
-"Sam Harris" → "S.H"
-"patrick feeney" → "P.F"
+Напишите функцию, которая преобразует имя из двух слов в инициалы, выводя две заглавные буквы, разделённые точкой.
 """
 
-def abbrev_name(name):
+def abbreviation(name):
     words = name.split()
 
     first_initial = words[0][0]
@@ -29,5 +17,6 @@ def abbrev_name(name):
 
     return initials
 
-print(abbrev_name("Sam Harris"))
-print(abbrev_name("patrick feeney"))
+name = "patrick feeney"
+answer = abbreviation(name)
+print(answer)

@@ -1,23 +1,15 @@
 """
-Given a year, return the century it belongs to.
+Given a year, determine the century it belongs to.
 
-Examples:
-1705 → 18
-1900 → 19
-1601 → 17
-
-Дан год. Необходимо определить, к какому веку он относится.
-
-Примеры:
-1705 → 18
-1900 → 19
-1601 → 17
+Дан год, определите, к какому веку он относится.
 """
 
-def century(year):
-    century = (year + 99) // 100
-    return century
+def get_century(given_year):
+    if given_year % 100 == 0:
+        return given_year // 100
+    else:
+        return (given_year // 100) + 1
 
-print(century(1705))
-print(century(1900))
-print(century(1601))
+year = 1703
+century = get_century(year)
+print(century)

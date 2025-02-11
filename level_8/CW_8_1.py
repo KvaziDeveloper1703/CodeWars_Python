@@ -12,6 +12,6 @@ def even_or_odd(given_number):
     else:
         return "Odd"
 
-my_number = input("Enter your number here, please: ")
-answer = even_or_odd(my_number)
+number = input("Enter your number here, please: ")
+answer = even_or_odd(number)
 print(answer)

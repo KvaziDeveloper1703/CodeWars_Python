@@ -9,8 +9,8 @@ https://www.codewars.com/kata/57a0e5c372292dd76d000d7e
 def repeat_the_string(given_number, given_string):
     return given_string * given_number
 
-my_number = int(input("Write your number here, please: "))
-my_string = input("Write your string here, please: ")
+number = int(input("Write your number here, please: "))
+string = input("Write your string here, please: ")
 
-repeated_string = repeat_the_string(my_number, my_string)
+repeated_string = repeat_the_string(number, string)
 print(repeated_string)

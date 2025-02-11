@@ -13,7 +13,6 @@ def sum_of_positives(given_array):
             sum = sum + number
     return sum
 
-my_array = [1, -4, 7, 12, 4, -6]
-
-answer = sum_of_positives(my_array)
+array = [1, -4, 7, 12, 4, -6]
+answer = sum_of_positives(array)
 print(answer)

@@ -12,6 +12,6 @@ def summation(given_number):
         sum = sum + i
     return sum
 
-my_number = int(input("Write your number here, please: "))
-my_sum = summation(my_number)
-print(my_sum)
+number = int(input("Write your number here, please: "))
+sum = summation(number)
+print(sum)

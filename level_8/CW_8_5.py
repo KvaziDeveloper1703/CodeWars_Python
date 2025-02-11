@@ -12,13 +12,13 @@ def bool_to_yes_or_no(given_boolean):
     else:
         return "No"
 
-my_boolean = input("Write True or False here, please: ")
+boolean = input("Write True or False here, please: ")
 
-if my_boolean == "True":
-    my_boolean = True
+if boolean == "True":
+    boolean = True
 
-if my_boolean == "False":
-    my_noolean = False
+if boolean == "False":
+    noolean = False
     
-answer = bool_to_yes_or_no(my_boolean)
+answer = bool_to_yes_or_no(boolean)
 print(answer)

@@ -1,13 +1,14 @@
 """
-Create a function that accepts a parameter (a name) and returns the message:
-"Hello, <name> how are you doing today?"
+Create a function that accepts a name and returns the message:
+"Hello, <name>! How are you doing today?"
 
-Создайте функцию, которая принимает параметр (имя) и возвращает сообщение:
-"Hello, <name> how are you doing today?"
+Создайте функцию, которая принимает имя и возвращает сообщение:
+"Hello, <имя>! How are you doing today?"
 """
 
 def greet(name):
-    return f"Hello, {name} how are you doing today?"
+    return f"Hello, {name}! How are you doing today?"
 
-print(greet("John"))
-print(greet("Alice"))
+name = "Viktor"
+greeting = greet(name)
+print(greeting)
