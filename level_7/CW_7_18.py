@@ -20,16 +20,16 @@ Examples:
 ["Peter", "Stephen", "Joe"] → []
 """
 
-def friend(names):
+def friend(given_names):
 
     filtered_names = []
 
-    for name in names:
+    for name in given_names:
         if len(name) == 4:
             filtered_names.append(name)
 
     return filtered_names
 
-print(friend(["Ryan", "Kieran", "Jason", "Yous"]))
-print(friend(["Peter", "Stephen", "Joe"]))
-print(friend(["Mark", "John", "Paul", "Anna"]))
+names = ["Ryan", "Kieran", "Jason", "Yous"]
+answer = friend(names)
+print(answer)

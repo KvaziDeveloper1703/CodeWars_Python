@@ -18,7 +18,8 @@ Examples:
 "GTAT" → "CATA"
 """
 
-def dna_strand(dna):
+def complementary_dna_strand(given_dna_strand):
+    
     complement = {
         "A": "T",
         "T": "A",
@@ -28,13 +29,12 @@ def dna_strand(dna):
 
     complementary_dna = ""
 
-    for nucleotide in dna:
+    for nucleotide in given_dna_strand:
         complement_nucleotide = complement[nucleotide]
         complementary_dna += complement_nucleotide
 
     return complementary_dna
 
-print(dna_strand("ATTGC"))
-print(dna_strand("GTAT"))
-print(dna_strand("AGCT"))
-print(dna_strand("CGCG"))
+dna_strand = "ATTGC"
+complementary_dna_strand = complementary_dna_strand(dna_strand)
+print(complementary_dna_strand)

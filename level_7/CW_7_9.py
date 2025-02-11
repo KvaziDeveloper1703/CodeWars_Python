@@ -1,5 +1,5 @@
 """
-Write a program that checks whether a given integer is a perfect square. 
+Write a program that checks whether a given integer is a perfect square.
 For example, is_square(4) returns True, while is_square(3) returns False.
 
 Напишите программу, которая проверяет, является ли заданное целое число идеальным квадратом.
@@ -18,6 +18,6 @@ def is_square(given_number):
         i += 1
     return False
 
-my_number = input("Write your number here, please: ")
-test_result = is_square(my_number)
-print(test_result)
+number = input("Write your number here, please: ")
+answer = is_square(number)
+print(answer)

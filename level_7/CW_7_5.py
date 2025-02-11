@@ -12,5 +12,5 @@ def descending_order(given_number):
     highest_number = int(''.join(sorted_digits))
     return highest_number
 
-my_number = input("Write your number here, please: ")
-print(descending_order(my_number))
+number = input("Write your number here, please: ")
+print(descending_order(number))

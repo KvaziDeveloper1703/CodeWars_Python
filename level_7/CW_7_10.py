@@ -13,13 +13,13 @@ https://www.codewars.com/kata/54ba84be607a92aa900000f1
 def is_isogram(given_string):
     given_string = given_string.lower()
     seen_letters = set()
-    for char in given_string:
-        if char in seen_letters:
+    for character in given_string:
+        if character in seen_letters:
             return False
-        seen_letters.add(char)
+        seen_letters.add(character)
     return True
     
 
-my_word = input("Write your word here, please: ")
-test_result = is_isogram(my_word)
-print(test_result)
+word = input("Write your word here, please: ")
+answer = is_isogram(word)
+print(answer)

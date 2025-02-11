@@ -11,7 +11,7 @@ Examples:
 "" → ""
 
 Обычно при покупке чего-либо вас спрашивают, актуальны ли ваши данные — номер кредитной карты, телефон или ответ на секретный вопрос.
-Но, чтобы защитить личную информацию от посторонних глаз, эти данные замаскированы.
+Чтобы защитить личную информацию от посторонних глаз, эти данные замаскированы.
 
 Ваша задача — написать функцию maskify, которая заменяет все символы, кроме последних четырёх, на #.
 
@@ -22,16 +22,14 @@ Examples:
 "" → ""
 """
 
-def maskify(cc):
-    if len(cc) <= 4:
-        return cc
+def maskify(given_information):
+    if len(given_information) <= 4:
+        return given_information
 
-    masked_part = "#" * (len(cc) - 4)
-    visible_part = cc[-4:]
+    masked_part = "#" * (len(given_information) - 4)
+    visible_part = given_information[-4:]
     return masked_part + visible_part
 
-print(maskify("4556364607935616"))
-print(maskify("64607935616"))
-print(maskify("1"))
-print(maskify(""))
-print(maskify("123456"))
+information = "4556364607935616"
+masked_information = maskify(information)
+print(masked_information)

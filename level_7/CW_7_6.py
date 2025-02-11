@@ -9,7 +9,7 @@ https://www.codewars.com/kata/53dbd5315a3c69eed20002dd
 def filter_strings(input_list):
     filtered_list = []
     for item in input_list:
-        if isinstance(item, int):
+        if type(item) == int:
             filtered_list.append(item)
     return filtered_list
 

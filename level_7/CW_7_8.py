@@ -15,6 +15,6 @@ def transformator(given_string):
         result.append(part)
     return '-'.join(result)
 
-my_string = input("Write your string here, please: ")
-transformed_string = transformator(my_string)
+string = input("Write your string here, please: ")
+transformed_string = transformator(string)
 print(transformed_string)

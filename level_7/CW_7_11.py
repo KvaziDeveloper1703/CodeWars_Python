@@ -28,8 +28,6 @@ def xo(given_string):
     given_string = given_string.lower()
     return given_string.count('x') == given_string.count('o')
 
-print(xo("ooxx"))
-print(xo("xooxx"))
-print(xo("ooxXm"))
-print(xo("zpzpzpp"))
-print(xo("zzoo"))
+string = "ooxXm"
+answer = xo(string)
+print(answer)

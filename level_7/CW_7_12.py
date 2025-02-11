@@ -20,12 +20,13 @@ Jaden-Cased:
 "How Can Mirrors Be Real If Our Eyes Aren't Real"
 """
 
-def to_jaden_case(string):
-    words = string.split()
+def to_jaden_case(given_string):
+    words = given_string.split()
     capitalized_words = [word.capitalize() for word in words]  
     jaden_case_string = " ".join(capitalized_words)  
 
     return jaden_case_string
 
-print(to_jaden_case("How can mirrors be real if our eyes aren't real"))  
-print(to_jaden_case("hello world this is python"))  
+string = "How can mirrors be real if our eyes aren't real"
+jaden_case_string = to_jaden_case(string)
+print(jaden_case_string)

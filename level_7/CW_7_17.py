@@ -4,31 +4,15 @@ Given two integers a and b, which can be positive or negative:
 + If the two numbers are equal, return a or b.
 + The numbers are not ordered! (a can be greater than b).
 
-Examples:
-(1, 0) → 1
-(1, 2) → 3
-(0, 1) → 1
-(1, 1) → 1
-(-1, 0) → -1
-(-1, 2) → 2
-
 Даны два целых числа a и b, которые могут быть положительными или отрицательными.
 + Найти сумму всех целых чисел между ними (включительно) и вернуть этот результат.
 + Если числа равны, вернуть a или b (так как сумма будет равна самому числу).
 + Числа могут быть переданы в любом порядке (то есть a может быть больше b).
-
-Примеры:
-(1, 0) → 1
-(1, 2) → 3
-(0, 1) → 1
-(1, 1) → 1
-(-1, 0) → -1
-(-1, 2) → 2
 """
 
-def get_sum(a, b):
-    lower_bound = min(a, b)
-    upper_bound = max(a, b)
+def get_sum(number_1, number_2):
+    lower_bound = min(number_1, number_2)
+    upper_bound = max(number_1, number_2)
 
     numbers = list(range(lower_bound, upper_bound + 1))
 
@@ -38,9 +22,7 @@ def get_sum(a, b):
 
     return total_sum
 
-print(get_sum(1, 0))
-print(get_sum(1, 2))
-print(get_sum(0, 1))
-print(get_sum(1, 1))
-print(get_sum(-1, 0))
-print(get_sum(-1, 2))
+first_number = 64
+second_number = 27
+answer = get_sum(first_number, second_number)
+print(answer)
