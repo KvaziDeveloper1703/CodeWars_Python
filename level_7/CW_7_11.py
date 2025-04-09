@@ -1,27 +1,29 @@
 """
-Check if a string has the same amount of 'x' and 'o'.
-+ The function must return a boolean (true or false).
-+ It must be case insensitive.
-+ The string can contain any characters.
+Write a function that checks if a given string contains the same number of 'x' and 'o' characters.
 
 Examples:
-xo("ooxx") → true
-xo("xooxx") → false
-xo("ooxXm") → true
-xo("zpzpzpp") → true
-xo("zzoo") → false
+Input: "ooxx"
+Output: True
 
-Проверьте, содержит ли строка одинаковое количество символов 'x' и 'o'.
-+ Функция должна возвращать булево значение (true или false).
-+ Проверка не чувствительна к регистру.
-+ Строка может содержать любые символы.
+Input: "xooxx"
+Output: False
+
+Input: "ooxXm"
+Output: True
+
+Напишите функцию, которая проверяет, содержит ли заданная строка одинаковое количество символов 'x' и 'o'.
 
 Примеры:
-xo("ooxx") → true
-xo("xooxx") → false
-xo("ooxXm") → true
-xo("zpzpzpp") → true
-xo("zzoo") → false
+Ввод: "ooxx"
+Вывод: True
+
+Ввод: "xooxx"
+Вывод: False 
+
+Ввод: "ooxXm"
+Вывод: True
+
+https://www.codewars.com/kata/55908aad6620c066bc00002a
 """
 
 def xo(given_string):
