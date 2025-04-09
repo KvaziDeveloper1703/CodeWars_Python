@@ -15,5 +15,5 @@ def count_vowels(given_sentence):
     return counter
 
 sentence = input("Write your sentence here, please: ")
-number_of_vowels_in_a_sentence = count_vowels(my_sentence)
+number_of_vowels_in_a_sentence = count_vowels(sentence)
 print(number_of_vowels_in_a_sentence)
