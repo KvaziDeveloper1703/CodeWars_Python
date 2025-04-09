@@ -1,7 +1,9 @@
 """
-Given a string of words, return the length of the shortest word in the string.
+Write a function that takes a string containing multiple words and returns the length of the shortest word in the string.
 
-Дана строка, содержащая несколько слов. Найдите длину самого короткого слова в строке и верните это значение.
+Напишите функцию, которая принимает строку, содержащую несколько слов, и возвращает длину самого короткого слова в этой строке.
+
+https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9
 """
 
 def the_shortest(given_string):
