@@ -6,7 +6,7 @@ Write a program that takes a string as input and returns the reversed version of
 https://www.codewars.com/kata/5168bb5dfe9a00b126000018
 """
 
-def reverse(given_string):
+def reverse_string(given_string):
     reversed_string = ''
     for i in range(len(given_string) - 1, -1, -1):
         reversed_string = reversed_string + given_string[i]
