@@ -1,7 +1,9 @@
 """
-Given a year, determine the century it belongs to.
+Write a function that takes a year and returns the century it belongs to.
 
-Дан год, определите, к какому веку он относится.
+Напишите функцию, которая принимает год и возвращает век, к которому этот год относится.
+
+https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097
 """
 
 def get_century(given_year):
