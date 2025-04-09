@@ -2,6 +2,8 @@
 Write a function that removes all spaces from a string and returns the resulting string.
 
 Напишите функцию, которая удаляет все пробелы из строки и возвращает получившуюся строку.
+
+https://www.codewars.com/kata/57eae20f5500ad98e50002c5
 """
 
 def no_space(given_string):
