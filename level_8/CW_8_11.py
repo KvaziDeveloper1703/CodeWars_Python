@@ -2,6 +2,8 @@
 Given an array of integers, your solution should find the smallest integer in the array.
 
 Дан массив целых чисел. Необходимо найти наименьшее число в этом массиве.
+
+https://www.codewars.com/kata/55a2d7ebe362935a210000b2
 """
 
 def find_smallest_int(given_array):
