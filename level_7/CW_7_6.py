@@ -6,9 +6,9 @@ Write a program that takes a list containing non-negative integers and strings a
 https://www.codewars.com/kata/53dbd5315a3c69eed20002dd
 """
 
-def filter_strings(input_list):
+def filter_strings(given_list):
     filtered_list = []
-    for item in input_list:
+    for item in given_list:
         if type(item) == int:
             filtered_list.append(item)
     return filtered_list
