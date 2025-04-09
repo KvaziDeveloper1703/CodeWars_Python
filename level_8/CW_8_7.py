@@ -10,5 +10,5 @@ def remove_first_and_last_character(given_string):
     return given_string[1:-1]
 
 string = input("Write your string here, please: ")
-sliced_string = remove_first_and_last_character(my_string)
+sliced_string = remove_first_and_last_character(string)
 print(sliced_string)
