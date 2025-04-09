@@ -1,44 +1,30 @@
 """
-Your task is to create a function that performs four basic mathematical operations.
+Write a function that performs basic math operations. The function should take three arguments:
++ operation — the math operation (+, -, *, /);
++ value_1 — the first number;
++ value_2 — the second number.
 
-The function should take three arguments:
-+ operation (string) — mathematical operation,
-+ value1 (number) — first number,
-+ value2 (number) — second number.
+The function should return the result of the operation.
 
-The function should return the result of applying the chosen operation to the numbers.
+Напишите функцию для базовых математических операций. Функция должна принимать три аргумента:
++ operation — математическая операция (+, -, *, /);
++ value_1 — первое число;
++ value_2 — второе число.
 
-Examples (operator, value1, value2) → output:
-my_function('+', 4, 7) → 11
-my_function('-', 15, 18) → -3
-my_function('*', 5, 5) → 25
-my_function('/', 49, 7) → 7
+Функция должна возвращать результат операции.
 
-Напишите функцию, которая выполняет четыре базовые математические операции.
-
-Функция должна принимать три аргумента:
-+ operation (строка) — математическая операция,
-+ value1 (число) — первое число,
-+ value2 (число) — второе число.
-
-Функция должна возвращать результат выполнения указанной операции над числами.
-
-Примеры (оператор, число1, число2) → результат:
-my_function('+', 4, 7) → 11
-my_function('-', 15, 18) → -3
-my_function('*', 5, 5) → 25
-my_function('/', 49, 7) → 7
+https://www.codewars.com/kata/57356c55867b9b7a60000bd7
 """
 
-def my_function(operation, value1, value2):
+def my_function(operation, value_1, value_2):
     if operation == '+':
-        return value1 + value2
+        return value_1 + value_2
     elif operation == '-':
-        return value1 - value2
+        return value_1 - value_2
     elif operation == '*':
-        return value1 * value2
+        return value_1 * value_2
     elif operation == '/':
-        return value1 / value2 if value2 != 0 else "Division by zero!"
+        return value_1 / value_2 if value_2 != 0 else "Division by zero!"
     else:
         return "Invalid operation!"
 
