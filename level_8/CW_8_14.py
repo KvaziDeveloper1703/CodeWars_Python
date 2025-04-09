@@ -1,7 +1,9 @@
 """
-We need a function that can transform a string into a number.
+Write a function that can transform a string into a number.
 
-Нужно написать функцию, которая преобразует строку в число.
+Напишите функцию, которая преобразует строку в число.
+
+https://www.codewars.com/kata/544675c6f971f7399a000e79
 """
 
 def string_to_number(given_string):
