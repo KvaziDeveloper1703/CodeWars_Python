@@ -13,12 +13,6 @@ def bool_to_yes_or_no(given_boolean):
         return "No"
 
 boolean = input("Write True or False here, please: ")
-
-if boolean == "True":
-    boolean = True
-
-if boolean == "False":
-    noolean = False
     
 answer = bool_to_yes_or_no(boolean)
 print(answer)
