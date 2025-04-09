@@ -1,21 +1,27 @@
 """
-Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells. It carries the "instructions" for the development and functioning of living organisms.
+Deoxyribonucleic acid is a chemical found in the nucleus of cells. It carries the "instructions" for the development and functioning of living organisms.
 + In DNA strings, symbols "A" and "T" are complements of each other, as are "C" and "G".
-+ Your function receives one side of the DNA (as a string) and must return the complementary strand.
++ Your function receives one side of the DNA and must return the complementary strand.
 + The DNA strand is never empty and is always valid.
 
 Examples:
-"ATTGC" → "TAACG"
-"GTAT" → "CATA"
+Input: "ATTGC"
+Output: "TAACG"
 
-Дезоксирибонуклеиновая кислота (ДНК) — это химическое соединение, находящееся в ядре клеток. Оно несёт «инструкции» для развития и функционирования живых организмов.
+Input: "GTAT"
+Output: "CATA"
+
+Дезоксирибонуклеиновая кислота — это химическое соединение, находящееся в ядре клеток. Оно несёт «инструкции» для развития и функционирования живых организмов.
 + В строках ДНК символы "A" и "T" являются дополняющими друг друга, как и "C" и "G".
-+ Ваша функция получает одну сторону ДНК (в виде строки) и должна вернуть комплементарную ей сторону.
++ Ваша функция получает одну сторону ДНК и должна вернуть комплементарную ей сторону.
 + ДНК-строка никогда не будет пустой и всегда будет корректной.
 
 Примеры:
-"ATTGC" → "TAACG"
-"GTAT" → "CATA"
+Ввод: "ATTGC"
+Вывод: "TAACG"
+
+Ввод: "GTAT"
+Вывод: "CATA"
 """
 
 def complementary_dna_strand(given_dna_strand):
@@ -37,4 +43,4 @@ def complementary_dna_strand(given_dna_strand):
 
 dna_strand = "ATTGC"
 complementary_dna_strand = complementary_dna_strand(dna_strand)
-print(complementary_dna_strand)
+print("Complementary DNA strand: " + complementary_dna_strand)
