@@ -4,6 +4,8 @@ Given the time in hours, return the number of litres Nathan will drink, rounded 
 
 Нейтан любит кататься на велосипеде. Так как он знает, что важно поддерживать водный баланс, он выпивает 0.5 литра воды в час катания.
 Дано время в часах, нужно вернуть количество литров воды, которые Нейтан выпьет, округлённое в меньшую сторону.
+
+https://www.codewars.com/kata/582cb0224e56e068d800003c
 """
 
 def time_to_litres(given_time):
