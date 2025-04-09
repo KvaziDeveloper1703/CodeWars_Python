@@ -1,25 +1,11 @@
 """
-When you buy something, you're often asked whether your credit card number, phone number, or answer to a secret question is still correct.
-To prevent someone from looking over your shoulder, these details are masked.
+Write a function that takes a string and replaces all characters except the last four with the # character.
+If the string has four or fewer characters, it should remain unchanged. If the string is longer than four characters, all characters except the last four should be replaced with #.
 
-Your task is to write a function maskify that replaces all but the last four characters with #.
+Напишите функцию, которая принимает строку и заменяет все символы, кроме последних четырёх, на символы #.
+Если строка состоит из четырёх или менее символов, она остаётся без изменений. Если строка длиннее четырёх символов, все символы, кроме последних четырёх, должны быть заменены на символы #.
 
-Examples:
-"4556364607935616" → "############5616"
-"64607935616" → "#######5616"
-"1" → "1"
-"" → ""
-
-Обычно при покупке чего-либо вас спрашивают, актуальны ли ваши данные — номер кредитной карты, телефон или ответ на секретный вопрос.
-Чтобы защитить личную информацию от посторонних глаз, эти данные замаскированы.
-
-Ваша задача — написать функцию maskify, которая заменяет все символы, кроме последних четырёх, на #.
-
-Примеры:
-"4556364607935616" → "############5616"
-"64607935616" → "#######5616"
-"1" → "1"
-"" → ""
+https://www.codewars.com/kata/5412509bd436bd33920011bc
 """
 
 def maskify(given_information):
