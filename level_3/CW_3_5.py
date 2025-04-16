@@ -32,6 +32,8 @@ Examples:
 "BAAA" → 4
 "QUESTION" → 24572
 "BOOKKEEPER" → 10743
+
+https://www.codewars.com/kata/53e57dada0cb0400ba000688
 '''
 
 from math import factorial
